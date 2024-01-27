@@ -1,0 +1,49 @@
+.outer-container{
+    /* background-color: aqua; */
+    /* height: 600px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content:center;
+ 
+}
+.headings {
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 20px 100px;
+    border: 2px solid black;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 10px;
+
+}
+.card{
+    width: 300px;
+    height: 300vh;
+    align-items: center;
+    margin: 20px;
+    
+}
+.name{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font: bold;
+}
+.photo{
+    width: 100px;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.overall{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+button{
+    background-color: aqua;
+    border-radius: 40%;
+    
+}
